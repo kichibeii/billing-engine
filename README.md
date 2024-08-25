@@ -4,11 +4,17 @@
 ![Architecture Design](images/architecture_design.jpeg)
 
 ## How To Run
-run docker : ```docker-compose up -d```
+run docker : 
+```docker-compose up -d
+```
 
-migrate up : ```migrate -path ./migrations -database "mysql://root:root@tcp(localhost:3306)/billing-engine" up```
+migrate up : 
+```migrate -path ./migrations -database "mysql://root:root@tcp(localhost:3306)/billing-engine" up
+```
 
-run service : ```go run main.go```
+run service : 
+```go run main.go
+```
 
 ## Specification
 ### Schedule  
