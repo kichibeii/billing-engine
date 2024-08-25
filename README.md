@@ -5,15 +5,18 @@
 
 ## How To Run
 run docker : 
-```docker-compose up -d
+```
+docker-compose up -d
 ```
 
 migrate up : 
-```migrate -path ./migrations -database "mysql://root:root@tcp(localhost:3306)/billing-engine" up
+```
+migrate -path ./migrations -database "mysql://root:root@tcp(localhost:3306)/billing-engine" up
 ```
 
 run service : 
-```go run main.go
+```
+go run main.go
 ```
 
 ## Specification
