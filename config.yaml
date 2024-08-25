@@ -1,0 +1,14 @@
+app:
+  host: "0.0.0.0"
+  env: "local"
+  port: 9001
+
+
+database:
+  driver: "mysql"
+  name: "billing-engine"
+  user: "root"
+  password: "root"
+  host: "0.0.0.0"
+  port: "3306"
+  additionalParameters: "charset=utf8&parseTime=true"

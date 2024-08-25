@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  db:
+    image: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: billing-engine
+    networks:
+      - server-side
+
+networks:
+  server-side:
